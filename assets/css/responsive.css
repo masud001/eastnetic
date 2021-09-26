@@ -1,0 +1,311 @@
+@media only screen and (min-width: 320px) {
+	.header-bg-mobile img {
+		width: 100%;
+		margin: -20px 0px 0px 0px;
+	}
+	.header-bg {
+		height: 620px;
+		margin-bottom: 0px;
+		background-position: center 100%;
+		background-size: cover;
+	}
+	.header-content h6 {
+		font-size: 18px;
+	}
+	.header-content {
+		margin-top: 35px;
+		padding-top: 15px;
+		background-size: contain;
+	}
+	.timer-wrapper::after {
+		width: 67px;
+		height: 3px;
+	}
+
+	#countdown li span {
+		font-size: 40px;
+	}
+	#countdown li {
+		font-size: 14px;
+	}
+	span#days::before {
+		right: -58%;
+	}
+	span#hours::before {
+		right: -58%;
+	}
+	span#minutes::before {
+		right: -44%;
+	}
+	.timer-heading {
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+	#countdown {
+		padding-bottom: 25px;
+	}
+	.timer-wrapper {
+		margin-top: 0px;
+	}
+	/* objective-section css */
+
+	.objective-section {
+		padding-top: 35px;
+	}
+	.objective-section-title h6 {
+		font-size: 16px;
+	}
+	.objective-section-title h1 {
+		font-size: 29px;
+	}
+	.objective-section-title {
+		margin-bottom: 25px;
+	}
+	.statistics-wrapper {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		margin-top: 35px;
+	}
+	.about-forum-wrapper h6 {
+		font-size: 16px;
+	}
+	.about-forum-wrapper h1 {
+		font-size: 30px;
+	}
+	.pattern-bg img {
+		width: 100%;
+		left: 0%;
+	}
+	.google-map-section {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.about-lithuania-section {
+		padding-top: 25px;
+		padding-bottom: 0px;
+	}
+	.pattern-bg-2 img {
+		width: 100%;
+		left: 0%;
+	}
+	/* team-section css  */
+	.team-section {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.pattern-bg-3 {
+		height: 90%;
+		top: 15%;
+	}
+	.row-margin {
+		margin-top: 35px;
+	}
+}
+@media only screen and (min-width: 450px) {
+	.header-content {
+		background-size: cover;
+	}
+	span#days::before {
+		right: -77%;
+	}
+	span#hours::before {
+		right: -77%;
+	}
+	span#minutes::before {
+		right: -64%;
+	}
+}
+@media only screen and (min-width: 576px) {
+	.header-bg-mobile img {
+		width: 100%;
+		margin: -20px 0px 0px 0px;
+	}
+	.header-bg {
+		height: 600px;
+		margin-bottom: 0px;
+	}
+	.header-content h6 {
+		font-size: 16px;
+	}
+	.header-content {
+		margin-top: 30px;
+		padding: 80px 0px 0px 0px;
+	}
+
+	#countdown li span {
+		font-size: 50px;
+	}
+	#countdown li {
+		font-size: 16px;
+	}
+	span#days::before {
+		right: -77%;
+	}
+	span#hours::before {
+		right: -62%;
+	}
+	span#minutes::before {
+		right: -75%;
+	}
+	.timer-heading {
+		padding-top: 25px;
+		padding-bottom: 15px;
+	}
+	#countdown {
+		padding-bottom: 25px;
+	}
+	.timer-wrapper {
+		margin-top: 0px;
+	}
+	/* objective-section css */
+
+	.objective-section {
+		padding-top: 125px;
+	}
+	.objective-section-title h6 {
+		font-size: 24px;
+	}
+	.objective-section-title h1 {
+		font-size: 40px;
+	}
+	.about-forum-wrapper h6 {
+		font-size: 24px;
+	}
+	.about-forum-wrapper h1 {
+		font-size: 40px;
+	}
+	.pattern-bg img {
+		width: 90%;
+		left: 12%;
+	}
+	.google-map-section,
+	.about-lithuania-section,
+	.team-section {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.pattern-bg-2 img {
+		width: 96%;
+		height: 96%;
+		top: 12%;
+		left: 9%;
+	}
+
+	.pattern-bg-3 {
+		height: 88%;
+		top: 15%;
+	}
+	.row-margin {
+		margin-top: 64px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.timer-wrapper {
+		margin-top: 90px;
+	}
+	span#days::before {
+		right: -50%;
+	}
+	span#hours::before {
+		right: -50%;
+	}
+	span#minutes::before {
+		right: -45%;
+	}
+	/* objective-section css */
+
+	.objective-section-title h6 {
+		font-size: 24px;
+	}
+	.objective-section-title h1 {
+		font-size: 40px;
+	}
+	.objective-section-title {
+		margin-bottom: 75px;
+	}
+	.statistics-wrapper {
+		padding-top: 75px;
+		padding-bottom: 75px;
+		margin-top: 50px;
+	}
+
+	.google-map-section,
+	.about-lithuania-section {
+		padding-top: 122px;
+		padding-bottom: 113px;
+	}
+
+	.team-section {
+		padding-top: 56px;
+		padding-bottom: 52px;
+	}
+
+	.pattern-bg-3 {
+		height: 90%;
+		top: 15%;
+	}
+	.pattern-bg-3 {
+		height: 51%;
+		top: 55%;
+	}
+	.pattern-bg-2 img {
+		height: 65%;
+		top: 12%;
+		left: 13%;
+	}
+	#countdown li span {
+		font-size: 70px;
+	}
+	#countdown li {
+		font-size: 21px;
+	}
+	.objective-section {
+		padding-top: 115px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.header-bg {
+		height: 541px;
+		margin-bottom: 0px;
+		background-position: center 100%;
+		background-size: contain;
+	}
+	.header-content {
+		background-image: unset;
+	}
+	.timer-wrapper::after {
+		width: 133px;
+		height: 5px;
+	}
+	span#days::before {
+		right: -66%;
+	}
+	span#hours::before {
+		right: -66%;
+	}
+	span#minutes::before {
+		right: -66%;
+	}
+	.pattern-bg-3 {
+		height: 60%;
+		top: 45%;
+	}
+	.pattern-bg-2 img {
+		height: 95%;
+		top: 12%;
+		left: 13%;
+		width: 100%;
+	}
+	/* team-section css  */
+	.team-section {
+		padding-top: 136px;
+		padding-bottom: 50px;
+	}
+	.timer-heading {
+		padding-top: 35px;
+		padding-bottom: 15px;
+	}
+}

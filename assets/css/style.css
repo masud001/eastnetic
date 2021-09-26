@@ -1,0 +1,521 @@
+/* install fonts from local directory  */
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('/assets/Font/Aileron-Regular.otf');
+	src: url('/assets/Font/Aileron-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('/assets/Font/Aileron-Light.otf');
+	src: url('/assets/Font/Aileron-Light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('/assets/Font/Aileron-SemiBold.otf');
+	src: url('/assets/Font/Aileron-SemiBold.otf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('/assets/Font/Aileron-Bold.otf');
+	src: url('/assets/Font/Aileron-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+html,
+body {
+	font-family: 'MyWebFont';
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+
+/* header css  */
+.header-bg {
+	background-image: url('../img/header-bg.png');
+	background-repeat: no-repeat;
+	background-color: #2f5bea;
+}
+.header-content {
+	background-image: url('../img/Artboard-mobile.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.header-content h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	position: relative;
+	z-index: 1;
+}
+.header-content h6 {
+	color: #93b9ff;
+	font-weight: 600;
+	text-transform: none;
+	position: relative;
+	z-index: 1;
+}
+
+/* remaining timer css  */
+
+.timer-wrapper {
+	border-radius: 5px;
+	margin-top: 65px;
+	position: relative;
+}
+.timer-wrapper::after {
+	content: '';
+	position: absolute;
+	background-color: #fdb72e;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%);
+}
+.timer-heading {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #d7d9e0;
+	font-weight: 600;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	letter-spacing: 6.22px;
+}
+#countdown {
+	padding-bottom: 40px;
+}
+#countdown ul {
+	margin: 0;
+	padding: 0;
+}
+#countdown li {
+	display: inline-block;
+	list-style-type: none;
+	text-transform: capitalize;
+	color: #93b9ff;
+	font-weight: 700;
+}
+
+#countdown li span {
+	color: #223f78;
+	font-weight: 300;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+span#days::before {
+	content: ':';
+	position: absolute;
+	top: 50%;
+	color: #d7d9e0;
+	font-size: 30px;
+	transform: translate(-50%, -50%);
+}
+span#hours::before {
+	content: ':';
+	position: absolute;
+	top: 50%;
+	color: #d7d9e0;
+	font-size: 30px;
+	transform: translate(-50%, -50%);
+}
+span#minutes::before {
+	content: ':';
+	position: absolute;
+	top: 50%;
+	color: #d7d9e0;
+	font-size: 30px;
+	transform: translate(-50%, -50%);
+}
+
+/* objective-section css */
+
+.objective-section-title {
+	font-weight: 700;
+}
+.objective-section-title h1 {
+	color: #223f78;
+	text-transform: capitalize;
+}
+.objective-section-title h6 {
+	color: #93b9ff;
+	text-transform: none;
+}
+
+.single-objective-icon {
+	width: 98px;
+	height: 98px;
+	border-radius: 50%;
+	overflow: hidden;
+	padding: 20px;
+
+	margin: 0 auto;
+}
+.icon-bg-1 {
+	background-color: #f0f3ff;
+}
+.icon-bg-2 {
+	background-color: #fdb72e;
+}
+.icon-bg-3 {
+	background-color: #2f5bea;
+}
+.icon-bg-4 {
+	background-color: #c23038;
+}
+.icon-bg-5 {
+	background-color: #5ebaaa;
+}
+.single-objective-icon img {
+	width: 100%;
+}
+.single-objective p {
+	text-align: justify;
+	color: #000000;
+	font-size: 16px;
+}
+
+.bg-image-pattern,
+.bg-image-pattern-2 {
+	position: relative;
+}
+
+/* bg image pattern */
+.bg-image-pattern img {
+	position: absolute;
+	width: 97%;
+	left: 50%;
+	top: -27px;
+	transform: translate(-50%);
+}
+
+.bg-image-pattern-2 img {
+	position: absolute;
+	width: 97%;
+	left: 50%;
+	top: 50px;
+	transform: translate(-50%, -29%);
+	z-index: 1;
+}
+
+/* statistics-section css  */
+
+.statistics-wrapper {
+	position: relative;
+	z-index: 1;
+}
+.statistics-single-item {
+}
+.statistics-single-item h1 {
+	color: #223f78;
+	font-size: 90px;
+	font-weight: 300;
+}
+.statistics-single-item h6 {
+	color: #223f78;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 6.22px;
+	text-transform: uppercase;
+}
+.statistics-single-item p {
+	color: #7e8085;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* map section  */
+.map-section {
+	overflow: hidden;
+	background-color: #fff;
+}
+.map-section img {
+	width: 100%;
+}
+
+/* google-map-section */
+
+.google-map-section {
+	position: relative;
+}
+.rectangle {
+	position: relative;
+}
+.rectangle img {
+	position: absolute;
+	top: -122px;
+}
+.google-map-wrapper iframe {
+	position: relative;
+	z-index: 2;
+}
+.google-map-wrapper {
+	padding: 15px;
+	position: relative;
+}
+.pattern-bg {
+	width: 100%;
+}
+.pattern-bg img {
+	position: absolute;
+	height: 90%;
+	top: 12%;
+}
+
+.about-forum-wrapper h6 {
+	color: #93b9ff;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.about-forum-wrapper h1 {
+	color: #223f78;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.about-forum-wrapper p {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.about-forum-wrapper a {
+	color: #2f5bea;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+/* about-lithuania-section css  */
+.about-lithuania-section {
+	position: relative;
+}
+.lithuania-bg {
+	background-color: #f6f8f9;
+}
+.image-wrapper {
+	position: relative;
+}
+
+.pattern-bg-2 {
+	width: 100%;
+}
+.pattern-bg-2 img {
+	position: absolute;
+	height: 96%;
+	top: 12%;
+}
+.image-container img {
+	width: 100%;
+	height: 350px;
+	border-radius: 5px;
+	position: relative;
+	z-index: 1;
+}
+.play-btn {
+	z-index: 2;
+	width: 94px;
+	height: 94px;
+	line-height: 94px;
+	text-align: center;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #2f5bea;
+	color: #fff;
+	cursor: pointer;
+}
+.play-btn i {
+	font-size: 35px;
+}
+
+/* team-section css  */
+
+.single-member-wrapper {
+	padding-top: 42px;
+	padding-bottom: 67px;
+	position: relative;
+}
+.single-member-img > img {
+	overflow: hidden;
+	border-radius: 50%;
+}
+.single-member-img {
+	position: relative;
+	width: 212px;
+	height: 212px;
+	margin: 0 auto 38px auto;
+}
+
+.flag {
+	position: absolute;
+	width: 41px;
+	height: 30px;
+	bottom: 0;
+	right: 17px;
+	z-index: 1;
+}
+.flag img {
+	width: 100%;
+}
+.single-member-wrapper h1 {
+	color: #2c2e30;
+	font-weight: 400;
+	margin-bottom: 18px;
+	text-transform: capitalize;
+}
+.single-member-wrapper h6 {
+	color: #d7d9e0;
+	font-weight: 400;
+	font-size: 16px;
+}
+.single-member img {
+	width: 100%;
+	height: 100%;
+}
+.pattern-bg-3 {
+	position: absolute;
+	background-image: url(../img/patternBg-02.png);
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.facilitators-link {
+	color: #2f5bea;
+	font-size: 16px;
+	font-weight: 700;
+	position: relative;
+	z-index: 1;
+}
+/* organiser-section */
+
+.organiser-section {
+}
+.organiser-section h4,
+.partner-section h4 {
+	color: #2c2e30;
+	font-size: 21px;
+	font-weight: 700;
+}
+
+/* 5 column grid system  */
+
+@media (min-width: 992px) {
+	.col-md-1-5 {
+		width: 20%;
+	}
+	.col-md-2-5 {
+		width: 40%;
+	}
+	.col-md-3-5 {
+		width: 60%;
+	}
+	.col-md-4-5 {
+		width: 80%;
+	}
+	.col-md-5-5 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+	}
+	.col-lg-2-5 {
+		width: 40%;
+	}
+	.col-lg-3-5 {
+		width: 60%;
+	}
+	.col-lg-4-5 {
+		width: 80%;
+	}
+	.col-lg-5-5 {
+		width: 100%;
+	}
+}
+
+/* Demo only, no need for this */
+
+.show-grid [class^='col-'] div,
+.container-fluid .show-grid [class^='col-'] {
+	display: block;
+	/* padding-top: 10px; */
+	/* padding-bottom: 10px; */
+	/* background-color: #eee; */
+	/* background-color: rgba(86, 61, 124, 0.15); */
+	text-align: center;
+	/* border: 1px solid #ddd; */
+	/* border: 1px solid rgba(86, 61, 124, 0.2); */
+}
+
+[class^='col-'] {
+	margin-bottom: 30px;
+}
+
+/* footer css  */
+.footer {
+	padding-top: 24px;
+	padding-bottom: 30px;
+}
+.copywrite-text p {
+	color: #2c2e30;
+	font-size: 14px;
+	font-weight: 700;
+}
+.social-icons {
+}
+.social-icons div {
+	margin-left: 17px;
+}
+.facebook {
+	width: 29px;
+	height: 29px;
+	background-color: #2f5bea;
+	border-radius: 50%;
+	line-height: 10px;
+	padding: 10px;
+}
+.facebook img {
+	width: 100%;
+	position: relative;
+	top: -4px;
+}
+.instagram {
+	width: 29px;
+	height: 29px;
+	background-color: #2f5bea;
+	border-radius: 50%;
+	line-height: 10px;
+	padding: 8px;
+}
+.instagram img {
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
