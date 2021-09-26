@@ -1,4 +1,4 @@
-// this code is responcibol for remaining time counter
+// this code is responsible for remaining time counter
 (function () {
 	const second = 1000,
 		minute = second * 60,
@@ -33,7 +33,6 @@
 })();
 
 // init Magnific Popup js library
-
 $(document).ready(function () {
 	$('.jsVideoPlay').magnificPopup({
 		type: 'iframe',

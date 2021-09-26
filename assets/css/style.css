@@ -229,8 +229,7 @@ span#minutes::before {
 	position: relative;
 	z-index: 1;
 }
-.statistics-single-item {
-}
+
 .statistics-single-item h1 {
 	color: #223f78;
 	font-size: 90px;
@@ -416,8 +415,6 @@ span#minutes::before {
 }
 /* organiser-section */
 
-.organiser-section {
-}
 .organiser-section h4,
 .partner-section h4 {
 	color: #2c2e30;
@@ -491,8 +488,7 @@ span#minutes::before {
 	font-size: 14px;
 	font-weight: 700;
 }
-.social-icons {
-}
+
 .social-icons div {
 	margin-left: 17px;
 }
