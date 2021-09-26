@@ -2,32 +2,28 @@
 
 @font-face {
 	font-family: 'MyWebFont';
-	src: url('/assets/Font/Aileron-Regular.otf'),
-		url('/assets/Font/aileron-regular-webfont.woff') format('woff');
+	src: url('/assets/Font/aileron-regular-webfont.woff') format('woff');
 	src: url('/assets/Font/Aileron-Regular.otf') format('opentype');
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'MyWebFont';
-	src: url('/assets/Font/Aileron-Light.otf'),
-		url('/assets/Font/aileron-light-webfont.woff') format('woff');
+	src: url('/assets/Font/aileron-light-webfont.woff') format('woff');
 	src: url('/assets/Font/Aileron-Light.otf') format('opentype');
 	font-weight: 300;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'MyWebFont';
-	src: url('/assets/Font/Aileron-SemiBold.otf'),
-		url('/assets/Font/aileron-semibold-webfont.woff') format('woff');
+	src: url('/assets/Font/aileron-semibold-webfont.woff') format('woff');
 	src: url('/assets/Font/Aileron-SemiBold.otf') format('opentype');
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'MyWebFont';
-	src: url('/assets/Font/Aileron-Bold.otf'),
-		url('/assets/Font/aileron-bold-webfont.woff') format('woff');
+	src: url('/assets/Font/aileron-bold-webfont.woff') format('woff');
 	src: url('/assets/Font/Aileron-Bold.otf') format('opentype');
 	font-weight: 700;
 	font-style: normal;
