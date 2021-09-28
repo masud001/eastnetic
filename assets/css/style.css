@@ -225,6 +225,39 @@ span#minutes::before {
 
 /* statistics-section css  */
 
+.shap-01 {
+	border-left: 24px solid #fdb72e;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	left: 37%;
+	top: 2%;
+	transform: translate(-37%, -2%);
+}
+.shap-02 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 45px solid #5ebaaa;
+	border-bottom: 25px solid transparent;
+	position: absolute;
+	left: 0;
+	top: 13%;
+	transform: translate(0%, -50%);
+}
+.shap-03 {
+	position: absolute;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 40px solid #c13038;
+	border-bottom: 20px solid transparent;
+	top: 21%;
+	transform: translate(0%, -21%);
+}
 .statistics-wrapper {
 	position: relative;
 	z-index: 1;
@@ -246,6 +279,7 @@ span#minutes::before {
 	color: #7e8085;
 	font-size: 14px;
 	font-weight: 400;
+	margin-top: 15px;
 }
 
 /* map section  */
